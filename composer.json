@@ -1,5 +1,5 @@
 {
-    "name": "xiaoguo/weather",
+    "name": "xiaoguo0426/weather",
     "autoload": {
         "psr-4": {
             "Xiaoguo\\Weather\\": "./src/"
