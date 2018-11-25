@@ -10,6 +10,7 @@ $ composer require xiaoguo0426/weather -vvv
 ## Usage
     
 ```
+
 use Xiaoguo\Weather\Weather;
 
 $key = 'xxxxxxxxx';
