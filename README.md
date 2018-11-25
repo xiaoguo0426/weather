@@ -4,7 +4,7 @@
 ## Installing
 
 ```shell
-$ composer require /xiaoguo/weather -vvv
+$ composer require xiaoguo/weather -vvv
 ```
 
 ## Usage
