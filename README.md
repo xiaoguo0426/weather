@@ -1,4 +1,4 @@
-<h1 align="center"> xiaoguo/weather </h1>
+<h1 align="center"> xiaoguo0426/weather </h1>
 
 
 ## Installing
