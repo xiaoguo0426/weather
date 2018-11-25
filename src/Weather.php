@@ -34,17 +34,29 @@ class Weather
         $this->guzzleOptions = $options;
     }
 
-    public function getWeather($city, string $format = 'json')
+    /**
+     * 获取实时天气预报
+     * @param $city
+     * @param string $format
+     * @return mixed|string
+     */
+    public function getLiveWeather($city, string $format = 'json')
     {
-        return $this->_getWeather($city, 'base', $format);
+        return $this->getWeather($city, 'base', $format);
     }
 
-    public function getAllWeather($city, string $format = 'json')
+    /**
+     * 获取未来几天的天气预报
+     * @param $city
+     * @param string $format
+     * @return mixed|string
+     */
+    public function getForecastsWeather($city, string $format = 'json')
     {
-        return $this->_getWeather($city, 'all', $format);
+        return $this->getWeather($city, 'all', $format);
     }
 
-    private function _getWeather($city, string $type = 'base', string $format = 'json')
+    private function getWeather($city, string $type = 'base', string $format = 'json')
     {
 
         if (!in_array(strtolower($format), ['xml', 'json'])) {
