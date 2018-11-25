@@ -1,0 +1,16 @@
+{
+    "name": "xiaoguo/weather",
+    "autoload": {
+        "psr-4": {
+            "Xiaoguo\\Weather\\": "./src/"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "phpunit/phpunit": "^7.4",
+        "mockery/mockery": "^1.2"
+    },
+    "repositories": {
+
+    }
+}
